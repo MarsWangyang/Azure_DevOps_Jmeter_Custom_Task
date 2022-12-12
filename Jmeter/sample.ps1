@@ -1,16 +1,13 @@
 <#
     .SYNOPSIS
-    This script generates a password
+    This script generates a jmeter command and execute it in a easy way
     .DESCRIPTION
-    A password is generated that contains at least one  non-capital, one capital, one number and one special character.
-    It will than removes the similar characters (like I & l)
-    .PARAMETER length
-    The length of the password
+    Simple script for generating jmeter command and execute the script from local.
     .NOTES
-    Written by Barbara Forbes
-    @Ba4bes
-    https://4bes.nl
-    #>
+    Written by Mars Wang
+    Github: @MarsWangyang
+    https://github.com/MarsWangyang
+#>
 
 [CmdletBinding]
 
